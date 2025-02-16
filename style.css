@@ -17,6 +17,9 @@ body{
     background-color: #09090c;
     color: white;
 }
+body h1{
+    font-size: 30px;
+}
 
 header{
     width: 100%;
