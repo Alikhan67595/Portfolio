@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="nav-left"><h1><span id="element"></span></h1></div>
+            <div class="nav-right">
+                <a href="/">Home</a>
+                <a href="./pages/aboutus.html">About us</a>
+                <a href="./pages/projects.html">Projects</a>
+                <a href="./pages/contactus.html">Contact us</a>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <hr>
 
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Hello! Everyone</i>','<i>This is my Portfolio.</i>',],
+          typeSpeed: 70, loop: true,backSpeed: 30,
+        });
+      </script>
 </body>
 </html>
