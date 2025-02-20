@@ -43,6 +43,11 @@ header nav{
 
 }
 
+
+nav a{
+    cursor: pointer;
+}
+
 .nav-left{
     font-size: 20px;
 }

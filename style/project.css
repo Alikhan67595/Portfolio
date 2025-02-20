@@ -43,6 +43,10 @@ header nav {
 
 }
 
+nav a{
+    cursor: pointer;
+}
+
 .nav-left #element {
     background: var(--bg1);
     background: var(--bg2);
